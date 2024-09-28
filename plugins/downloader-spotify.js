@@ -1,4 +1,4 @@
-// 𝐊𝐈𝐋𝐋𝐙𝐍@𝐊𝐈𝐋𝐋𝐙𝐍 - descargas-spotify.js
+// Josselyne🩷@Josselyne🩷 - descargas-spotify.js
 // Creditos de los tags a @darlyn1234 y diseño a @ALBERTO9883
 import fetch from 'node-fetch';
 import fs from 'fs';
@@ -68,7 +68,7 @@ const handler = async (m, { conn, text }) => {
     const img = await (await fetch(`${spty.data.cover_url}`)).buffer()  
     const letra_s = await find_lyrics(spty.data.name ? spty.data.name : '');
     let letra;
-    letra = `${letra_s ? letra_s + '\n\n🤴🏻 Descarga por 𝐊𝐈𝐋𝐋𝐙𝐍 & 𝐊𝐈𝐋𝐋𝐙𝐍 🤖' : '🤴🏻 Descarga por 𝐊𝐈𝐋𝐋𝐙𝐍 & 𝐊𝐈𝐋𝐋𝐙𝐍 🤖'}`  
+    letra = `${letra_s ? letra_s + '\n\n🤴🏻 Descarga por Josselyne🩷 & Josselyne🩷 🤖' : '🤴🏻 Descarga por Josselyne🩷 & Josselyne🩷 🤖'}`  
     const tags = {
       title: spty.data.name || '-',
       artist: artist,

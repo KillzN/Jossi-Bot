@@ -1,4 +1,4 @@
-/* Codigo hecho por @𝐊𝐈𝐋𝐋𝐙𝐍 y mejorado por 𝐊𝐈𝐋𝐋𝐙𝐍 */
+/* Codigo hecho por @Josselyne🩷 y mejorado por Josselyne🩷 */
 
 import { readdirSync, unlinkSync, existsSync, promises as fs, rmSync, readFileSync } from 'fs';
 import path from 'path';
@@ -13,7 +13,7 @@ const handler = async (m, { conn, usedPrefix }) => {
     return conn.sendMessage(m.chat, {text: tradutor.texto1}, {quoted: m});
   }
   await conn.sendMessage(m.chat, {text: tradutor.texto2}, {quoted: m});
-  const sessionPath = './𝐊𝐈𝐋𝐋𝐙𝐍Session/';
+  const sessionPath = './Josselyne🩷Session/';
   try {
     if (!existsSync(sessionPath)) {
       return await conn.sendMessage(m.chat, {text: tradutor.texto3}, {quoted: m});
